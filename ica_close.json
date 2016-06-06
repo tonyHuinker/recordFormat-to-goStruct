@@ -1,0 +1,260 @@
+[
+    {
+        "display_name": "Application",
+        "name": "application",
+        "data_type": "app",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Flow",
+        "name": "flowId",
+        "data_type": "s",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Client",
+        "name": "client",
+        "data_type": "dev",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Client Address",
+        "name": "clientAddr",
+        "data_type": "addr4",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Client IPv6 Address",
+        "name": "clientAddr",
+        "data_type": "addr6",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Client Port",
+        "name": "clientPort",
+        "data_type": "n",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Server",
+        "name": "server",
+        "data_type": "dev",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Server Address",
+        "name": "serverAddr",
+        "data_type": "addr4",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Server IPv6 Address",
+        "name": "serverAddr",
+        "data_type": "addr6",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Server Port",
+        "name": "serverPort",
+        "data_type": "n",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Client Zero Windows",
+        "name": "clientZeroWnd",
+        "data_type": "n",
+        "meta_type": "count",
+        "description": ""
+    },
+    {
+        "display_name": "Server Zero Windows",
+        "name": "serverZeroWnd",
+        "data_type": "n",
+        "meta_type": "count",
+        "description": ""
+    },
+    {
+        "display_name": "Authentication Domain",
+        "name": "authDomain",
+        "data_type": "s",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Client Machine",
+        "name": "client",
+        "data_type": "s",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Host",
+        "name": "host",
+        "data_type": "s",
+        "facet": true,
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "User",
+        "name": "user",
+        "data_type": "s",
+        "meta_type": "user",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Aborted",
+        "name": "isAborted",
+        "data_type": "b",
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Clean Shutdown",
+        "name": "isCleanShutdown",
+        "data_type": "b",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Encrypted",
+        "name": "isEncrypted",
+        "data_type": "b",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Shared Session",
+        "name": "isSharedSession",
+        "data_type": "b",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Parameters",
+        "name": "launchParams",
+        "data_type": "s",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Load Time",
+        "name": "loadTime",
+        "data_type": "n",
+        "meta_type": "milliseconds",
+        "description": ""
+    },
+    {
+        "display_name": "Login Time",
+        "name": "loginTime",
+        "data_type": "n",
+        "meta_type": "milliseconds",
+        "description": ""
+    },
+    {
+        "display_name": "Round Trip Time",
+        "name": "roundTripTime",
+        "data_type": "n",
+        "meta_type": "milliseconds",
+        "description": ""
+    },
+    {
+        "display_name": "Client Bytes",
+        "name": "clientBytes",
+        "data_type": "n",
+        "meta_type": "bytes",
+        "description": ""
+    },
+    {
+        "display_name": "Client L2 Bytes",
+        "name": "clientL2Bytes",
+        "data_type": "n",
+        "meta_type": "bytes",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Client Packets",
+        "name": "clientPkts",
+        "data_type": "n",
+        "meta_type": "packets",
+        "description": ""
+    },
+    {
+        "display_name": "Client RTO",
+        "name": "clientRTO",
+        "data_type": "n",
+        "meta_type": "count",
+        "description": ""
+    },
+    {
+        "display_name": "ICA Client Type",
+        "name": "clientType",
+        "data_type": "s",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Server Bytes",
+        "name": "serverBytes",
+        "data_type": "n",
+        "meta_type": "bytes",
+        "description": ""
+    },
+    {
+        "display_name": "Server L2 Bytes",
+        "name": "serverL2Bytes",
+        "data_type": "n",
+        "meta_type": "bytes",
+        "default_visible": true,
+        "description": ""
+    },
+    {
+        "display_name": "Server Packets",
+        "name": "serverPkts",
+        "data_type": "n",
+        "meta_type": "packets",
+        "description": ""
+    },
+    {
+        "display_name": "Server RTO",
+        "name": "serverRTO",
+        "data_type": "n",
+        "meta_type": "count",
+        "description": ""
+    },
+    {
+        "display_name": "VLAN",
+        "name": "vlan",
+        "data_type": "n",
+        "meta_type": "",
+        "description": ""
+    },
+    {
+        "display_name": "Program",
+        "name": "program",
+        "data_type": "s",
+        "facet": true,
+        "meta_type": "",
+        "default_visible": true,
+        "description": ""
+    }
+]
