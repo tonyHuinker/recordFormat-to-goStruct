@@ -1,6 +1,6 @@
 # recordFormat-to-goStruct
 
-utility to convert ExtraHop Record Formats (json) into Golang structs  
+utility to convert ExtraHop Record Formats (json) into Golang structs when using the ExtraHop REST api to get EXA data  
 
 Instructions.
 
