@@ -1,0 +1,1 @@
+# recordFormat-to-goStruct
